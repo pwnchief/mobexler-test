@@ -160,10 +160,44 @@
     margin-right: 0;
     font-weight: 600;
   }
+
+
 }
 
 
 </style>
+
+<script> 
+    function mouseover() { 
+        document.getElementById("teammember").style.color = "blue"; 
+    } 
+      
+    function mouseout() { 
+        document.getElementById("teammember").style.color = "#343a40"; 
+    } 
+
+    function mouseover2() { 
+        document.getElementById("teammember2").style.color = "blue"; 
+    } 
+      
+    function mouseout2() { 
+        document.getElementById("teammember2").style.color = "#343a40"; 
+    } 
+    function mouseover3() { 
+        document.getElementById("teammember3").style.color = "blue"; 
+    } 
+      
+    function mouseout3() { 
+        document.getElementById("teammember3").style.color = "#343a40"; 
+    } 
+    function mouseover4() { 
+        document.getElementById("teammember4").style.color = "blue"; 
+    } 
+    function mouseout4() { 
+        document.getElementById("teammember4").style.color = "#343a40"; 
+    } 
+    
+</script> 
 </head>
 
 <body>
@@ -186,7 +220,7 @@
     <nav class="navbar navbar-expand-lg fixed-top navbar-custom sticky sticky-dark">
         <div class="container">
             <!-- LOGO -->
-            <a class="navbar-brand logo" href="/">
+            <a class="navbar-brand logo" href="/mobexler-test/">
                 <img src="images/logo-dark.png" alt="" class="logo-dark" height="60">
                 <img src="images/logo-light.png" alt="" class="logo-light" height="120">
               </a>            <button class="navbar-toggler" style="float: right !important;" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -283,14 +317,16 @@
                                     <i class="mdi mdi-layers-triple"></i>
                                 </div>
                                 <h4 class="mb-3 service-title">Android Zone </h4>
-                                <p class="text-muted f-15">Contains the various updated tools only for Android Security Testing </p>
+                                <p class="text-muted f-15">Contains various tools & scripts for Android Application Security Testing 
+ </p>
                             </div>
                             <div class="service-box service-box-1 p-4">
                                 <div class="service-icon icon-danger mb-4 mt-3">
                                     <i class="mdi mdi-security"></i>
                                 </div>
-                                <h4 class="mb-3 service-title">General Penetration Testing Zone </h4>
-                                <p class="text-muted f-15">Contains the various updated tools only for IOS Penetration testing </p>
+                                <h4 class="mb-3 service-title">IOS Zone</h4>
+                                <p class="text-muted f-15">Contains various tools & scripts for iOS Application Security Testing 
+                                </p>
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -298,8 +334,9 @@
                                 <div class="service-icon icon-success mb-4 mt-3">
                                     <i class="mdi mdi-shield-lock-outline"></i>
                                 </div>
-                                <h4 class="mb-3 service-title">IOS Zone</h4>
-                                <p class="text-muted f-15">Contains the tools that useful for general Penetration testing like Nmap,Metasploit etc
+                                <h4 class="mb-3 service-title">Penetration Testing Zone</h4>
+                                <p class="text-muted f-15">Contains various tools & scripts for PenetrationTesting 
+
                                 </p>
                             </div>
                             <!-- <div class="service-box service-box-1 p-4">
@@ -338,14 +375,14 @@
                     <div class="about-icon">
                         <i class="pe-7s-phone display-4 text-primary mb-4"></i>
                     </div>
-                    <h1 class="title font-weight-normal line-height-1_4 mb-4">Mobile Application Penetration Testing Platform. Created & Managed by Team ENCIPHERS
+                    <h1 class="title font-weight-normal line-height-1_4 mb-4">Mobile Application Penetration Testing Platform
                     </h1>
                     <div class="about-border my-4"></div>
-                    <p class="text-muted mb-4 f-15">Enciphers is a team of passionate security professionals spending our each day learning, improving and contributing to a safer internet, one vulnerability at a time. We learn, practice, improvise and teach. Security is at the heart of ENCIPHERS.
+                    <p class="text-muted mb-4 f-15">One platform capable of managing Android and IOS devices at the same time, for penetration testing.
 
 
                     </p>
-                    <a href="" class="more-info">See More Information <span class="ml-2 right-icon">&#8594;</span></a>
+                    <a href="" class="more-info">See More Credits Information <span class="ml-2 right-icon">&#8594;</span></a>
                 </div>
 
                 <div class="col-lg-5 offset-lg-1 mt-5 mt-lg-0">
@@ -353,7 +390,8 @@
                         <div class="media align-items-center">
                             <img src="images/users/1.jpg" class="mr-3 rounded-circle" alt="" height="60">
                             <div class="media-body">
-                                <h5 class="mb-2 title">Abhinav Mishra</h5>
+                                <h5 class="mb-2 title">Abhinav <a  id="teammember" onmouseover="mouseover()" 
+                                    onmouseout="mouseout()" href="https://twitter.com/0ctac0der" style="color:#343a40;">(0ctac0der)</a></h5>
                                 <p class="text-muted line-height-1_6 mb-0 f-15">Project Lead
                                 </p>
                             </div>
@@ -365,8 +403,9 @@
                         <div class="media align-items-center">
                             <img src="images/users/2.jpg" class="mr-3 rounded-circle" alt="" height="60">
                             <div class="media-body">
-                                <h5 class="mb-2 title">Narendra</h5>
-                                <p class="text-muted line-height-1_6 mb-0 f-15">Team @0ddhawk</p>
+                                <h5 class="mb-2 title">Narendra <a  id="teammember2" onmouseover="mouseover2()" 
+                                    onmouseout="mouseout2()" href="https://twitter.com/0ddhawk" style="color:#343a40;">(0ddhawk)</a></h5>
+                                <p class="text-muted line-height-1_6 mb-0 f-15">Team Member / Contributor </p>
                             </div>
            
                         </div>
@@ -375,8 +414,9 @@
                         <div class="media align-items-center">
                             <img src="images/users/3.jpg" class="mr-3 rounded-circle" alt="" height="60">
                             <div class="media-body">
-                                <h5 class="mb-2 title">Abhishek</h5>
-                                <p class="text-muted line-height-1_6 mb-0 f-15">Team @Pwnchief</p>
+                                <h5 class="mb-2 title">Abhishek <a  id="teammember3" onmouseover="mouseover3()" 
+                                    onmouseout="mouseout3()" href="https://twitter.com/Pwnchief" style="color:#343a40;">(Pwnchief)</a></h5>
+                                <p class="text-muted line-height-1_6 mb-0 f-15">Team Member / Contributor</p>
                             </div>
                    
                         </div>
@@ -386,8 +426,9 @@
                         <div class="media align-items-center">
                             <img src="images/users/4.jpg" class="mr-3 rounded-circle" alt="" height="60">
                             <div class="media-body">
-                                <h5 class="mb-2 title">Sheeraz</h5>
-                                <p class="text-muted line-height-1_6 mb-0 f-15">Team @Beingsheerazali</p>
+                                <h5 class="mb-2 title">Sheeraz <a  id="teammember4" onmouseover="mouseover4()" 
+                                    onmouseout="mouseout4()" href="https://twitter.com/Beingsheerazali" style="color:#343a40;">(Beingsheerazali)</a></h5>
+                                <p class="text-muted line-height-1_6 mb-0 f-15">Team Member / Contributor</p>
                             </div>
                 
                         </div>
@@ -404,7 +445,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-6 col-md-8">
                     <div class="text-center mb-5">
-                        <h4 class="text-uppercase mb-0">Unique</h4>
+                        <h4 class="text-uppercase mb-0">Unique Features</h4>
                         <div class="my-3">
                             <img src="images/title-border.png" alt="" class="img-fluid mx-auto d-block">
                         </div>
@@ -419,8 +460,8 @@
                         <div class="text-primary feature-icon mb-3">
                             <i class="pe-7s-world"></i>
                         </div>
-                        <h6 class="text-uppercase mb-1 title f-18">Better manage</h6>
-                        <p class="mb-0 text-muted">One platform capable of managing Android and IOS devices at the same time .</p>
+                        <h6 class="text-uppercase mb-1 title f-18">Better managed</h6>
+                        <p class="mb-0 text-muted">One platform capable of managing Android & IOS devices at the same time.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
@@ -428,8 +469,8 @@
                         <div class="text-primary feature-icon mb-3">
                             <i class=" pe-7s-refresh-2"></i>
                         </div>
-                        <h6 class="text-uppercase mb-1 title f-18">Free</h6>
-                        <p class="text-muted mb-0">It is free for everyone to use                         </p>
+                        <h6 class="text-uppercase mb-1 title f-18">Free & Opensource</h6>
+                        <p class="text-muted mb-0">It is free for everyone to use and opensource based on Elementary OS</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
@@ -438,15 +479,16 @@
                             <i class="pe-7s-tools"></i>
                         </div>
                         <h6 class="text-uppercase mb-1 title f-18">Various tools                        </h6>
-                        <p class="text-muted mb-0">Comes with preinstalled different updated tools </div>
+                        <p class="text-muted mb-0">Comes preinstalled with several Penetration testing tools
+                        </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="feature-box text-center px-4 py-5">
                         <div class="text-primary feature-icon mb-3">
                             <i class="pe-7s-cash"></i>
                         </div>
-                        <h6 class="text-uppercase mb-1 title f-18">Docker supported </h6>
-                        <p class="text-muted mb-0">Tools like MobSF run inside a docker container and ensures that it is easier to download the newer versions </p>
+                        <h6 class="text-uppercase mb-1 title f-18">Smooth & Fast</h6>
+                        <p class="text-muted mb-0">Mobexler is very resource full and optimized to get best experience possible for given resources</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
@@ -455,7 +497,7 @@
                             <i class="pe-7s-shield"></i>
                         </div>
                         <h6 class="text-uppercase mb-1 title f-18">Static Analysis on IPA  </h6>
-                        <p class="text-muted mb-0">MobSF in container also gives capability to perform Static analysis on IPA,without Xcode tools                        </p>
+                        <p class="text-muted mb-0">MobSF in container also gives capability to perform Static analysis on IPA,without Xcode tools</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
@@ -464,7 +506,7 @@
                             <i class="pe-7s-airplay"></i>
                         </div>
                         <h6 class="text-uppercase mb-1 title f-18">Easy To Connect</h6>
-                        <p class="text-muted mb-0">Android/iOS devices can easily be connected through USB and various tools can be used to perform the testing, like Frida, Objection, Hopper etc.                        </p>
+                        <p class="text-muted mb-0">Android/iOS devices can easily be connected through USB and various tools can be used to perform testing</p>
                     </div>
                 </div>
             </div>
@@ -513,8 +555,8 @@
                     <div class="counter-box-1 text-center px-4 py-5 mb-4 mb-lg-0">
                         <div class="text-white">
                             <img src="images/icon/icon-3.png" alt="" class="img-fluid mx-auto d-blok">
-                            <h1 class="mb-2 mt-3"><span class="counter-value mt-4" data-count="1">0</span></h1>
-                            <p class="mb-0 text-white-70">Conferences</p>
+                            <h1 class="mb-2 mt-3"><span class="counter-value mt-4" data-count="3">0</span></h1>
+                            <p class="mb-0 text-white-70">Presented at Conferences</p>
                         </div>
                     </div>
                 </div>
@@ -602,10 +644,10 @@
                 <div class="owl-carousel owl-theme">
                     <div class="item">
                         <div class="testi-content testi-content-1 text-center m-3 p-4 position-relative">
-                            <p class="text-muted mb-4 position-relative f-15">Need Your Mobile App To Be Tested For Security Issues?</p>
+                            <p class="text-muted mb-4 position-relative f-15" style="text-transform:capitalize;">Need Your Mobile App To Be Tested For Security Issues?</p>
                             <img src="images/mobilesecurity.png" alt="" class="img-fluid mx-auto img-thumbnail d-block rounded-circle user-img">
                             <h5 class="title mb-0 user-name mt-4 f-18">We are here and to  know more about our services visit</h5>
-                            <p class="text-muted mb-2 f-15">                        <a href="https://enciphers.com/mobile-application-penetration-testing/" class="btn mt-2 btn-outline-primary">More Details <span class="ml-2 right-icon">&#8594;</span></a>
+                            <p class="text-muted mb-2 f-15"><a href="https://enciphers.com/mobile-application-penetration-testing/" class="btn mt-2 btn-outline-primary">More Details <span class="ml-2 right-icon">&#8594;</span></a>
                             </p>
                             <ul class="list-unstyled text-warning mb-0">
                                 <li class="list-inline-item mr-1"><i class="mdi mdi-star"></i></li>
@@ -618,12 +660,12 @@
 
                     <div class="item">
                         <div class="testi-content testi-content-1 text-center m-3 p-4 position-relative">
-                            <p class="text-muted mb-4 position-relative f-15">LOOKING FOR A HIGH-END MOBILE SECURITY TRAINING?</p>
+                            <p class="text-muted mb-4 position-relative f-15" style="text-transform:capitalize;">Looking For a High-End Mobile Security Training?</p>
                             <img src="images/seminar.png" alt="" class="img-fluid mx-auto img-thumbnail d-block rounded-circle user-img">
-                            <h5 class="title mb-0 user-name mt-4 f-18">We provide high-end training focused on teaching Android & iOS application vulnerabilities and their exploitation, as done during a penetration test.
+                            <h5 class="title mb-0 user-name mt-4 f-18" style="text-transform:capitalize;">We provide high-end Online training focused on teaching Android & iOS application testing.
 
                             </h5>
-                            <p class="text-muted mb-2 f-15"><a href="https://enciphers.com/trainings/" class="btn mt-2 btn-primary">More Details<span class="ml-2 right-icon">&#8594;</span></a>
+                            <p class="text-muted mb-2 f-15"><a href="https://www.enciphers-trainings.com/" class="btn mt-2 btn-primary">Online Training<span class="ml-2 right-icon">&#8594;</span></a>
                             </p>
                             <ul class="list-unstyled text-warning mb-0">
                                 <li class="list-inline-item mr-1"><i class="mdi mdi-star"></i></li>
@@ -637,10 +679,10 @@
 
                     <div class="item">
                         <div class="testi-content testi-content-1 text-center m-3 p-4 position-relative">
-                            <p class="text-muted mb-4 position-relative f-15">Want to make sure your infrastructure is safe ?</p>
+                            <p class="text-muted mb-4 position-relative f-15" style="text-transform:capitalize;">Want to make sure your infrastructure is safe ?</p>
 
                             <img src="images/support.png" alt="" class="img-fluid mx-auto img-thumbnail d-block rounded-circle user-img">
-                            <h5 class="title mb-0 user-name mt-4 f-18">PENETRATION TESTING</h5>
+                            <h5 class="title mb-0 user-name mt-4 f-18" style="text-transform:capitalize;">penetration testing & security Consultancy</h5>
                             <a href="https://enciphers.com/vulnerability-assessments/" class="btn mt-2 btn-outline-primary">More Details<span class="ml-2 right-icon">&#8594;</span></a>
                             <ul class="list-unstyled text-warning mb-0">
                                 <li class="list-inline-item mr-1"><i class="mdi mdi-star"></i></li>
@@ -651,110 +693,6 @@
                     </div>
                     <!-- owl item and -->
 
-
-                    <div class="item">
-                        <div class="testi-content testi-content-1 text-center m-3 p-4 position-relative">
-                            <p class="text-muted mb-4 position-relative f-15">Enciphers The Art of Hacking (1 day) 16th Dec 2018</p>
-                            <img src="images/support.png" alt="" class="img-fluid mx-auto img-thumbnail d-block rounded-circle user-img">
-                            <h5 class="title mb-0 user-name mt-4 f-18">Web Application Hacking - Advance Level</h5>
-                            <!-- <p class="text-muted mb-2 f-15">Comming soon</p> -->
-                            <a href="https://enciphers.com/by-hackers-for-hackers/" class="btn mt-2 btn-outline-primary">More Details<span class="ml-2 right-icon">&#8594;</span></a>
-
-                            <ul class="list-unstyled text-warning mb-0">
-                                <li class="list-inline-item mr-1"><i class="mdi mdi-star"></i></li>
-                                <li class="list-inline-item h3 mb-0 mr-1"><i class="mdi mdi-star"></i></li>
-                                <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- owl item and -->
-
-
-
-                    <div class="item">
-                        <div class="testi-content testi-content-1 text-center m-3 p-4 position-relative">
-                            <p class="text-muted mb-4 position-relative f-15">Enciphers Training (2 days)</p>
-                            <img src="images/seminar.png" alt="" class="img-fluid mx-auto img-thumbnail d-block rounded-circle user-img">
-                            <h5 class="title mb-0 user-name mt-4 f-18"> Web Application Hacking – Pro Level
-                            </h5>
-                            <p class="text-muted mb-2 f-15"><a href="https://enciphers.com/trainings/" class="btn mt-2 btn-primary">More Details<span class="ml-2 right-icon">&#8594;</span></a>
-                            </p>
-                            <ul class="list-unstyled text-warning mb-0">
-                                <li class="list-inline-item mr-1"><i class="mdi mdi-star"></i></li>
-                                <li class="list-inline-item h3 mb-0 mr-1"><i class="mdi mdi-star"></i></li>
-                                <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- owl item and -->
-
-
-
-
-
-
-
-                    <div class="item">
-                        <div class="testi-content testi-content-1 text-center m-3 p-4 position-relative">
-                            <p class="text-muted mb-4 position-relative f-15">Nullcon Goa Training (3 days) 3rd to 5th March 2020
-
-                            </p>
-                            <img src="images/seminar.png" alt="" class="img-fluid mx-auto img-thumbnail d-block rounded-circle user-img">
-                            <h5 class="title mb-0 user-name mt-4 f-18">Hacking iOS Applications, Like A Pro
-
-                            </h5>
-                            <p class="text-muted mb-2 f-15">                        <a href="https://enciphers.com/trainings/" class="btn mt-2 btn-primary">More Details<span class="ml-2 right-icon">&#8594;</span></a>
-                            </p>
-                            <ul class="list-unstyled text-warning mb-0">
-                                <li class="list-inline-item mr-1"><i class="mdi mdi-star"></i></li>
-                                <li class="list-inline-item h3 mb-0 mr-1"><i class="mdi mdi-star"></i></li>
-                                <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- owl item and -->
-
-
-
-
-                    <div class="item">
-                        <div class="testi-content testi-content-1 text-center m-3 p-4 position-relative">
-                            <p class="text-muted mb-4 position-relative f-15">
-
-                            </p>
-                            <img src="images/seminar.png" alt="" class="img-fluid mx-auto img-thumbnail d-block rounded-circle user-img">
-                            <h5 class="title mb-0 user-name mt-4 f-18">Looking for high-end mobile security training?
-
-                            </h5>
-                            <p class="text-muted mb-2 f-15"><a href=" https://enciphers.com/trainings/" class="btn mt-2 btn-primary">More Details<span class="ml-2 right-icon">&#8594;</span></a>
-                            </p>
-                            <ul class="list-unstyled text-warning mb-0">
-                                <li class="list-inline-item mr-1"><i class="mdi mdi-star"></i></li>
-                                <li class="list-inline-item h3 mb-0 mr-1"><i class="mdi mdi-star"></i></li>
-                                <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- owl item and -->
-
-
-                    <div class="item">
-                        <div class="testi-content testi-content-1 text-center m-3 p-4 position-relative">
-                            <p class="text-muted mb-4 position-relative f-15">4 days Training
-                            </p>
-                            <img src="images/seminar.png" alt="" class="img-fluid mx-auto img-thumbnail d-block rounded-circle user-img">
-                            <h5 class="title mb-0 user-name mt-4 f-18"> Android & iOS security training 
-                            </h5>
-                            <p class="text-muted mb-2 f-15">E&Y Security Team, Gurugram<a href="https://enciphers.com/trainings/" class="btn mt-2 btn-primary">More Details<span class="ml-2 right-icon">&#8594;</span></a>
-                            </p>
-                            <ul class="list-unstyled text-warning mb-0">
-                                <li class="list-inline-item mr-1"><i class="mdi mdi-star"></i></li>
-                                <li class="list-inline-item h3 mb-0 mr-1"><i class="mdi mdi-star"></i></li>
-                                <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- owl item and -->
                     
                  </div>
             </div>
@@ -790,7 +728,7 @@
                 <div class="col-lg-7 offset-lg-1">
                     <div class="custom-form mt-4 mt-lg-0">
                         <div id="message"></div>
-                        <form method="post" action="https://formsubmit.co/sheeraz@enciphers.com" name="contact-form" id="contact-form">
+                        <form method="post" action="https://formsubmit.co/hello@enciphers.com" name="contact-form" id="contact-form">
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group app-label">
@@ -836,15 +774,15 @@
         <footer class="site-footer ">
             <div class="container">
               <div class="row">
-                <div class="col-sm-12 col-md-6">
+                <div class="col-sm-12 col-md-4">
                   <h6>About</h6>
                   <a href="/mobexler-test/"><img src="images/logo-light.png" alt="" class="logo-dark" height="122" /></a>
     
                   <p class="text-justify">One of the most hassle free mobile penetration testing platform by team enciphers..</p>
                 </div>
       
-                <div class="col-xs-6 col-md-3">
-                  <h6>Quick Links</h6>
+                <div class="col-xs-6 col-md-4">
+                  <h6>Mobexler Links</h6>
                   <ul class="footer-links">
                     <li><a href="/mobexler-test/">Home</a></li>
                     <li><a href="/mobexler-test/download.htm">Download</a></li>
@@ -855,10 +793,11 @@
                     <li><a href="/mobexler-test/Credits.htm">Credits</a></li>
                     <li><a href="/mobexler-test/resources.htm">Resources</a></li>
                   </ul>
+
                 </div>
       
-                <div class="col-xs-6 col-md-3">
-                  <h6>Quick From Enciphers</h6>
+                <div class="col-xs-6 col-md-4">
+                  <h6>Enciphers Links</h6>
                   <ul class="footer-links">
                     <li><a href="https://enciphers.com/">Enciphers</a></li>
                     <li><a href="https://enciphers.com/about-us/">About Us</a></li>
@@ -868,6 +807,7 @@
                     <li><a href="https://enciphers.com/blog/">Blog</a></li>
     
                   </ul>
+                  <a href="https://www.enciphers-trainings.com/" class="btn mt-2 btn-primary">Online Training<span class="ml-2 right-icon">&#8594;</span></a>
                 </div>
               </div>
               <hr>
@@ -883,7 +823,6 @@
                 <div class="col-md-4 col-sm-6 col-xs-12">
                   <ul class="social-icons">
                     <li><a class="facebook" href="https://twitter.com/mobexler"><i class="mdi mdi-twitter"></i></a></li>
-                    <li><a class="twitter" href="#"><i class="mdi mdi-github-circle"></i></a></li>
                   
                   </ul>
                 </div>
